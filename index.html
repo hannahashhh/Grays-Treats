@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gray's Treats</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div id="brand">
+        <img src="./images/Gray.png" alt="cat face" id="header-img">
+        <h1>Gray's Treats</h1>
+    </div>
+    <nav id="nav-bar">
+        <ul id="nav-list">
+            <li class="nav-link"><a href="#home">Home</a></li>
+            <li class="nav-link"><a href="#signup">Why Should You Sign Up?</a></li>
+            <li class="nav-link"><a href="#pricing">Pricing</a></li>
+        </ul>
+    </nav>
+  </header>
+<div id="body-page">
+    <section id="home">
+        <div>
+            <div id="welcome">
+                <h2 id="welcome-title">Welcome to Gray's Treats!</h2>
+                <p id="welcome-par">Gray's Treats is a subscription-based cat treat company dedicated to delighting cats and their humans with high-quality, all-natural snacks delivered straight to your door. Inspired by our beloved feline CEO, Gray, we believe every cat deserves a life full of flavor, fun, and love.</p>
+
+                <p>Each month, subscribers receive a curated box of gourmet, vet-approved treats made with simple, wholesome ingredients—no fillers, no mystery meats, just pure purrfection. Whether you're rewarding good behavior or just saying "I love you," Gray’s Treats makes it easy to keep your furry friend happy and healthy.</p>
+
+                <p>Join our growing community of cat lovers and treat your cat to something special—because a happy cat is a Gray’s cat.</p>
+            </div>
+
+            <div id="email-form">
+                <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form"> 
+                    <label>Fresh Cat Treats Every Month!</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"></input>
+                    <button type="submit" id="submit" value="Subscribe">Subscribe</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <section id="signup">   
+    <div >
+        <h3 id="signup-title">Why Should You Sign Up?</h3>
+        <ul id="signup-list">
+            <li id="ingredients">
+                <img src="./images/egg.svg" class="icons">
+                <div class="p-li">
+                    <p class="title">Healthy Ingredients</p>
+                    <p class="signup-des">All-natural treats made with real meat.</p>
+                </div>
+            </li>
+            <li id="delivery">
+                <img src="./images/box-seam.svg" class="icons">
+                <div class="p-li">
+                    <p class="title">Monthly Delivery</p>
+                    <p class="signup-des">Contact-free delivery right to your door—no.</p>
+                </div>
+            </li>
+            <li id="flavors">
+                <img src="./images/fork-knife.svg" class="icons">
+                <div class="p-li">
+                    <p class="title">Cat-Approved Flavors</p>
+                    <p class="signup-des">Taste-tested by real cats to guarantee satisfaction.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="video-wrapper">
+        <iframe width="600px" height="450px" src="https://www.youtube.com/embed/zjBbszmpx8E?si=IA3htU4dRxyaeCln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video">
+        </iframe>
+    </div>
+    </section>
+    <section id="pricing">
+        <h3 class="sub-title">Choose Your Subscription</h3>
+            <div id="pricing-list">
+                <div id="one-cat">
+                    <h4 class="pricing-title">One Cat</h4>
+                    <p class="price">$10</p>
+                    <ul class="benefits">
+                        <li>1 Treat Pack</li>
+                        <li>Free Shipping</li>
+                        <li>Cancel Anytime</li>
+                    </ul>
+                    <button class="signup-btn">Sign Up!</button>
+                </div>
+
+                <div id="multi-cat">
+                    <h5 class="pricing-title">Multiple Cats</h5>
+                    <p class="price">$25</p>
+                    <ul class="benefits">
+                        <li>3 Treat Pack</li>
+                        <li>Bonus Toy</li>
+                        <li>Cancel Anytime</li>
+                    </ul>
+                    <button class="signup-btn">Sign Up!</button>
+                </div>
+            </div>
+    </section>
+</div>
+</body>
+<footer>
+    <nav id="footer">
+        <ul id="footer-nav">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <p>Copyright 2025, Gray's Treats</p>
+</footer>
+</html>
